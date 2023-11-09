@@ -7,7 +7,7 @@ namespace Labb6OOPArv
         static void Main(string[] args)
         {
             // Skapar en lista som lagrar de objekten jag skapar utifrån deras klass.
-            List<Animal> animals = new List<Animal>()
+            List<Animal> animals = new()
             {
                 new Tiger(),
                 new Sloth(),
